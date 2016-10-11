@@ -1,1 +1,1 @@
-"# smtp-om-temp" 
+This Repository is a temporary storage location in order to get started with SMTP CI
