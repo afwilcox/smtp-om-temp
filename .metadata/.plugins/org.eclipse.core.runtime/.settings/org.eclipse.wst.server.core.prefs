@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+module-start-timeout=300000
+runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\r\n<runtimes>\r\n  <runtime PROPERTY_EXEC_ENVIRONMENT\="JavaSE-1.7" id\="JBoss Fuse 6.2 Runtime" location\="C\:/Users/jjose/jboss-fuse-6.2.1.redhat-084" name\="JBoss Fuse 6.2 Runtime" runtime-type-id\="org.fusesource.ide.fuseesb.runtime.62" timestamp\="0"/>\r\n</runtimes>\r\n
