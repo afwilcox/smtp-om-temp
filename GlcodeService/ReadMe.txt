@@ -17,3 +17,6 @@ or Apache Karaf. You will run the following command from its shell:
 For more help see the Apache Camel documentation
 
     http://camel.apache.org/
+    
+ Test from Advanced REST client  
+ http://127.0.0.1:9090/api/v1/glCodecombinations?glcc=010.000.000.000.000 
