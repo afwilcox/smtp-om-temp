@@ -12,6 +12,7 @@
 	</list>
 	<list key="CommitDialog.committerValues">
 		<item value="JaJose &lt;james.jose@gov.bc.ca&gt;"/>
+		<item value="James-jose &lt;jamesjosek@gmail.com&gt;"/>
 	</list>
 	<section name="org.eclipse.egit.ui.internal.dialogs.RebaseTargetSelectionDialog.dialogBounds">
 		<item value="705" key="DIALOG_WIDTH"/>
@@ -34,12 +35,19 @@
 		<item value="780" key="DIALOG_X_ORIGIN"/>
 		<item value="371" key="DIALOG_Y_ORIGIN"/>
 	</section>
+	<section name="org.eclipse.egit.ui.internal.merge.MergeResultDialog.dialogBounds">
+		<item value="992" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="244" key="DIALOG_HEIGHT"/>
+		<item value="473" key="DIALOG_X_ORIGIN"/>
+		<item value="363" key="DIALOG_Y_ORIGIN"/>
+	</section>
 	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
 		<item value="718" key="DIALOG_WIDTH"/>
 		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 		<item value="693" key="DIALOG_HEIGHT"/>
-		<item value="610" key="DIALOG_X_ORIGIN"/>
-		<item value="63" key="DIALOG_Y_ORIGIN"/>
+		<item value="589" key="DIALOG_X_ORIGIN"/>
+		<item value="31" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.egit.ui.internal.dialogs.MergeTargetSelectionDialog.dialogBounds">
 		<item value="700" key="DIALOG_WIDTH"/>
@@ -50,11 +58,17 @@
 	</section>
 	<section name="GitCommitMessageComponent">
 		<list key="E:\James\Projects\SMTP\smtp-om-temp\.git">
-			<item value="false"/>
-			<item value="JaJose &lt;james.jose@gov.bc.ca&gt;"/>
-			<item value="# WARNING: head commit changed in the meantime&#x0D;&#x0A;&#x0D;&#x0A;JIRA# ORDERMAN-1. This is the initial version of the REST API to validate gl code combination"/>
-			<item value="JaJose &lt;james.jose@gov.bc.ca&gt;"/>
-			<item value="4d3c2649dadb184a97b58620c71b804f365e5cca"/>
+			<item value="empty"/>
 		</list>
+		<list key="C:\Users\jjose\git\smtp-om-temp\.git">
+			<item value="empty"/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.fetch.FetchResultDialog.dialogBounds">
+		<item value="700" key="DIALOG_WIDTH"/>
+		<item value="1|Segoe UI|9.0|0|WINDOWS|1|-15|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
+		<item value="496" key="DIALOG_HEIGHT"/>
+		<item value="619" key="DIALOG_X_ORIGIN"/>
+		<item value="195" key="DIALOG_Y_ORIGIN"/>
 	</section>
 </section>
