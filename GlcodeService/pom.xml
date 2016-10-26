@@ -8,7 +8,7 @@
   <packaging>bundle</packaging>
   <version>1.0.0-SNAPSHOT</version>
 
-  <name>A Camel Spring-DM Route</name>
+  <name>GlcodeService</name>
   <url>http://www.myorganization.org</url>
 
   <properties>
@@ -70,7 +70,7 @@
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-spring-javaconfig</artifactId>
-			<version>2.12.0</version>
+			<version>2.17.0</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.xml.stream</groupId>
@@ -85,12 +85,12 @@
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-core</artifactId>
-			<version>2.12.0</version>
+			<version>2.17.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-spring</artifactId>
-			<version>2.12.0</version>
+			<version>2.17.0</version>
 		</dependency>
 
 		<dependency>
@@ -99,6 +99,25 @@
 			<version>2.0-m10</version>
 		</dependency>
 
+        <!-- Swagger -->		
+          <dependency>
+           <groupId>org.apache.camel</groupId>
+           <artifactId>camel-swagger-java</artifactId>
+           <version>2.17.0</version>    
+        </dependency>
+        
+        <dependency>
+          <groupId>org.webjars</groupId>
+          <artifactId>swagger-ui</artifactId>
+          <version>2.1.8-M1</version>
+        </dependency>
+        <!--  
+        <dependency>
+    <groupId>com.fasterxml.jackson.jaxrs</groupId>
+    <artifactId>jackson-jaxrs-json-provider</artifactId>  
+    <version>[2.4.2,3.0.0)</version>
+</dependency>
+        -->
 
 		<!-- logging -->
 		<dependency>
@@ -121,7 +140,7 @@
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-test-spring</artifactId>
-			<version>2.12.0</version>
+			<version>2.17.0</version>
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
@@ -135,8 +154,8 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>2.5.1</version>
         <configuration>
-          <source>1.7</source>
-          <target>1.7</target>
+          <source>1.8</source>
+          <target>1.8</target>
         </configuration>
       </plugin>
       <plugin>
@@ -152,7 +171,7 @@
       <plugin>
         <groupId>org.apache.camel</groupId>
         <artifactId>camel-maven-plugin</artifactId>
-        <version>2.12.0</version>
+        <version>2.17.0</version>
       </plugin>
 
       <!-- to generate the MANIFEST-FILE of the bundle -->
